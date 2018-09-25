@@ -19,6 +19,7 @@
   "homepage": "https://github.com/fahd-93/webpack-remaster#readme",
   "dependencies": {
     "css-loader": "^1.0.0",
+    "node-sass": "^4.9.3",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.0",
     "webpack": "^4.20.0",
