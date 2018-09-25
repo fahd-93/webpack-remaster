@@ -1,0 +1,27 @@
+{
+  "name": "webpack-remaster",
+  "version": "1.0.0",
+  "description": "this is a remake for webpack",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development ./src/js/main.js --output ./dist/js/main.js",
+    "production": "webpack --mode production ./src/js/main.js --output ./dist/js/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fahd-93/webpack-remaster.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fahd-93/webpack-remaster/issues"
+  },
+  "homepage": "https://github.com/fahd-93/webpack-remaster#readme",
+  "dependencies": {
+    "css-loader": "^1.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.20.0",
+    "webpack-cli": "^3.1.1"
+  }
+}
